@@ -34,4 +34,8 @@ public class QuickSort {
             quicksort(arr, p + 1, h);
         }
     }
+
+    public static void quicksort(int[] arr) {
+        quicksort(arr,0,arr.length-1);
+    }
 }
